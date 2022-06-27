@@ -1,0 +1,102 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.cbagames.tmdb_challenge"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/kagan_ozdemir/Kotlin/TMDB_Challenge/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/kagan_ozdemir/Kotlin/TMDB_Challenge/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/kagan_ozdemir/Kotlin/TMDB_Challenge/app/src/main/AndroidManifest.xml:6:5-67
+11-->/Users/kagan_ozdemir/Kotlin/TMDB_Challenge/app/src/main/AndroidManifest.xml:6:22-64
+12
+13    <application
+13-->/Users/kagan_ozdemir/Kotlin/TMDB_Challenge/app/src/main/AndroidManifest.xml:8:5-34:19
+14        android:allowBackup="true"
+14-->/Users/kagan_ozdemir/Kotlin/TMDB_Challenge/app/src/main/AndroidManifest.xml:9:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.7.0] /Users/kagan_ozdemir/Library/Android/sdk/system-images/android-30/caches/transforms-3/05817a5203b51b6b896fddf28bf56056/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+16        android:dataExtractionRules="@xml/data_extraction_rules"
+16-->/Users/kagan_ozdemir/Kotlin/TMDB_Challenge/app/src/main/AndroidManifest.xml:10:9-65
+17        android:debuggable="true"
+18        android:fullBackupContent="@xml/backup_rules"
+18-->/Users/kagan_ozdemir/Kotlin/TMDB_Challenge/app/src/main/AndroidManifest.xml:11:9-54
+19        android:icon="@mipmap/ic_launcher"
+19-->/Users/kagan_ozdemir/Kotlin/TMDB_Challenge/app/src/main/AndroidManifest.xml:12:9-43
+20        android:label="@string/app_name"
+20-->/Users/kagan_ozdemir/Kotlin/TMDB_Challenge/app/src/main/AndroidManifest.xml:13:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->/Users/kagan_ozdemir/Kotlin/TMDB_Challenge/app/src/main/AndroidManifest.xml:14:9-54
+22        android:supportsRtl="true"
+22-->/Users/kagan_ozdemir/Kotlin/TMDB_Challenge/app/src/main/AndroidManifest.xml:15:9-35
+23        android:testOnly="true"
+24        android:theme="@style/Theme.TMDB_Challenge"
+24-->/Users/kagan_ozdemir/Kotlin/TMDB_Challenge/app/src/main/AndroidManifest.xml:16:9-52
+25        android:usesCleartextTraffic="true" >
+25-->/Users/kagan_ozdemir/Kotlin/TMDB_Challenge/app/src/main/AndroidManifest.xml:17:9-44
+26        <activity
+26-->/Users/kagan_ozdemir/Kotlin/TMDB_Challenge/app/src/main/AndroidManifest.xml:19:9-21:40
+27            android:name="com.cbagames.tmdb_challenge.PersonDetailActivity"
+27-->/Users/kagan_ozdemir/Kotlin/TMDB_Challenge/app/src/main/AndroidManifest.xml:20:13-49
+28            android:exported="false" />
+28-->/Users/kagan_ozdemir/Kotlin/TMDB_Challenge/app/src/main/AndroidManifest.xml:21:13-37
+29        <activity
+29-->/Users/kagan_ozdemir/Kotlin/TMDB_Challenge/app/src/main/AndroidManifest.xml:22:9-24:40
+30            android:name="com.cbagames.tmdb_challenge.DetailActivity"
+30-->/Users/kagan_ozdemir/Kotlin/TMDB_Challenge/app/src/main/AndroidManifest.xml:23:13-43
+31            android:exported="false" />
+31-->/Users/kagan_ozdemir/Kotlin/TMDB_Challenge/app/src/main/AndroidManifest.xml:24:13-37
+32        <activity
+32-->/Users/kagan_ozdemir/Kotlin/TMDB_Challenge/app/src/main/AndroidManifest.xml:25:9-33:20
+33            android:name="com.cbagames.tmdb_challenge.MainActivity"
+33-->/Users/kagan_ozdemir/Kotlin/TMDB_Challenge/app/src/main/AndroidManifest.xml:26:13-41
+34            android:exported="true" >
+34-->/Users/kagan_ozdemir/Kotlin/TMDB_Challenge/app/src/main/AndroidManifest.xml:27:13-36
+35            <intent-filter>
+35-->/Users/kagan_ozdemir/Kotlin/TMDB_Challenge/app/src/main/AndroidManifest.xml:28:13-32:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->/Users/kagan_ozdemir/Kotlin/TMDB_Challenge/app/src/main/AndroidManifest.xml:29:17-69
+36-->/Users/kagan_ozdemir/Kotlin/TMDB_Challenge/app/src/main/AndroidManifest.xml:29:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->/Users/kagan_ozdemir/Kotlin/TMDB_Challenge/app/src/main/AndroidManifest.xml:31:17-77
+38-->/Users/kagan_ozdemir/Kotlin/TMDB_Challenge/app/src/main/AndroidManifest.xml:31:27-74
+39            </intent-filter>
+40        </activity>
+41
+42        <provider
+42-->[com.squareup.picasso:picasso:2.71828] /Users/kagan_ozdemir/Library/Android/sdk/system-images/android-30/caches/transforms-3/aedeae896204925d7ffd3193e2f6fba0/transformed/picasso-2.71828/AndroidManifest.xml:8:9-11:40
+43            android:name="com.squareup.picasso.PicassoProvider"
+43-->[com.squareup.picasso:picasso:2.71828] /Users/kagan_ozdemir/Library/Android/sdk/system-images/android-30/caches/transforms-3/aedeae896204925d7ffd3193e2f6fba0/transformed/picasso-2.71828/AndroidManifest.xml:9:13-64
+44            android:authorities="com.cbagames.tmdb_challenge.com.squareup.picasso"
+44-->[com.squareup.picasso:picasso:2.71828] /Users/kagan_ozdemir/Library/Android/sdk/system-images/android-30/caches/transforms-3/aedeae896204925d7ffd3193e2f6fba0/transformed/picasso-2.71828/AndroidManifest.xml:10:13-72
+45            android:exported="false" />
+45-->[com.squareup.picasso:picasso:2.71828] /Users/kagan_ozdemir/Library/Android/sdk/system-images/android-30/caches/transforms-3/aedeae896204925d7ffd3193e2f6fba0/transformed/picasso-2.71828/AndroidManifest.xml:11:13-37
+46        <provider
+46-->[androidx.emoji2:emoji2:1.0.0] /Users/kagan_ozdemir/Library/Android/sdk/system-images/android-30/caches/transforms-3/ad21252005288b43dc5c6615d0194529/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+47            android:name="androidx.startup.InitializationProvider"
+47-->[androidx.emoji2:emoji2:1.0.0] /Users/kagan_ozdemir/Library/Android/sdk/system-images/android-30/caches/transforms-3/ad21252005288b43dc5c6615d0194529/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+48            android:authorities="com.cbagames.tmdb_challenge.androidx-startup"
+48-->[androidx.emoji2:emoji2:1.0.0] /Users/kagan_ozdemir/Library/Android/sdk/system-images/android-30/caches/transforms-3/ad21252005288b43dc5c6615d0194529/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+49            android:exported="false" >
+49-->[androidx.emoji2:emoji2:1.0.0] /Users/kagan_ozdemir/Library/Android/sdk/system-images/android-30/caches/transforms-3/ad21252005288b43dc5c6615d0194529/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+50            <meta-data
+50-->[androidx.emoji2:emoji2:1.0.0] /Users/kagan_ozdemir/Library/Android/sdk/system-images/android-30/caches/transforms-3/ad21252005288b43dc5c6615d0194529/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+51                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+51-->[androidx.emoji2:emoji2:1.0.0] /Users/kagan_ozdemir/Library/Android/sdk/system-images/android-30/caches/transforms-3/ad21252005288b43dc5c6615d0194529/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+52                android:value="androidx.startup" />
+52-->[androidx.emoji2:emoji2:1.0.0] /Users/kagan_ozdemir/Library/Android/sdk/system-images/android-30/caches/transforms-3/ad21252005288b43dc5c6615d0194529/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+53            <meta-data
+53-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/kagan_ozdemir/Library/Android/sdk/system-images/android-30/caches/transforms-3/05573bc09cc21b73f2cf6ad8a876b023/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+54                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+54-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/kagan_ozdemir/Library/Android/sdk/system-images/android-30/caches/transforms-3/05573bc09cc21b73f2cf6ad8a876b023/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+55                android:value="androidx.startup" />
+55-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/kagan_ozdemir/Library/Android/sdk/system-images/android-30/caches/transforms-3/05573bc09cc21b73f2cf6ad8a876b023/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+56        </provider>
+57    </application>
+58
+59</manifest>

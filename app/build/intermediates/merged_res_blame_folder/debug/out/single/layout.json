@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "com.cbagames.tmdb_challenge.app-mergeDebugResources-4:/layout/movie_card.xml",
+        "source": "com.cbagames.tmdb_challenge.app-main-7:/layout/movie_card.xml"
+    },
+    {
+        "merged": "com.cbagames.tmdb_challenge.app-mergeDebugResources-4:/layout/person_movies_card.xml",
+        "source": "com.cbagames.tmdb_challenge.app-main-7:/layout/person_movies_card.xml"
+    },
+    {
+        "merged": "com.cbagames.tmdb_challenge.app-mergeDebugResources-4:/layout/activity_main.xml",
+        "source": "com.cbagames.tmdb_challenge.app-main-7:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.cbagames.tmdb_challenge.app-mergeDebugResources-4:/layout/activity_person_detail.xml",
+        "source": "com.cbagames.tmdb_challenge.app-main-7:/layout/activity_person_detail.xml"
+    },
+    {
+        "merged": "com.cbagames.tmdb_challenge.app-mergeDebugResources-4:/layout/detail_cast_card.xml",
+        "source": "com.cbagames.tmdb_challenge.app-main-7:/layout/detail_cast_card.xml"
+    },
+    {
+        "merged": "com.cbagames.tmdb_challenge.app-mergeDebugResources-4:/layout/activity_movie_detail.xml",
+        "source": "com.cbagames.tmdb_challenge.app-main-7:/layout/activity_movie_detail.xml"
+    },
+    {
+        "merged": "com.cbagames.tmdb_challenge.app-mergeDebugResources-4:/layout/detail_videos_card.xml",
+        "source": "com.cbagames.tmdb_challenge.app-main-7:/layout/detail_videos_card.xml"
+    },
+    {
+        "merged": "com.cbagames.tmdb_challenge.app-mergeDebugResources-4:/layout/person_tv_card.xml",
+        "source": "com.cbagames.tmdb_challenge.app-main-7:/layout/person_tv_card.xml"
+    }
+]
